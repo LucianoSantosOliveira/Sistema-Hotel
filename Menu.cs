@@ -83,15 +83,6 @@ namespace cc
             form.Show();
         }
 
-        private void Frm_menu_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            
-
-        }
-
-        private void Frm_menu_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            
-        }
+       
     }
     }

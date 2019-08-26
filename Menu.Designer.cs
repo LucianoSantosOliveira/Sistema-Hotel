@@ -562,8 +562,7 @@
             this.Name = "Frm_menu";
             this.Text = "Menu";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Frm_menu_FormClosing);
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Frm_menu_FormClosed);
+      
             this.Load += new System.EventHandler(this.Frm_menu_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Frm_menu_KeyDown);
             this.Resize += new System.EventHandler(this.Frm_menu_Resize);
