@@ -13,7 +13,7 @@ namespace cc
         string conexao = "SERVER=localhost; DATABASE=hotel; UID=root; PWD=; PORT=;";
         public MySqlConnection con = null;
 
-
+        //conecção
       public void abrircon()
         {
             try
