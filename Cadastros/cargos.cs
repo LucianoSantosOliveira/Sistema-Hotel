@@ -30,7 +30,7 @@ namespace cc.Cadastros
         {
             grid_funcionario.Columns[0].HeaderText = "ID";
             grid_funcionario.Columns[1].HeaderText = "Cargos";
-            grid_funcionario.Columns[1].Width = 200;
+            grid_funcionario.Columns[1].Width = 318;
             grid_funcionario.Columns[0].Visible = false;
         }
         private void datagrid()

@@ -47,7 +47,6 @@
             this.painel_login.Name = "painel_login";
             this.painel_login.Size = new System.Drawing.Size(778, 442);
             this.painel_login.TabIndex = 0;
-            this.painel_login.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel1_Paint);
             // 
             // btn_login
             // 
@@ -92,7 +91,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
-            this.MinimizeBox = false;
             this.Name = "frm_login";
             this.Text = "Login";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

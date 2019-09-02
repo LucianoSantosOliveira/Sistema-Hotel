@@ -18,8 +18,8 @@ namespace cc
             painel_login.Visible = false;
             this.KeyPreview = true;
             this.ShowInTaskbar = false;
-            
-            
+            this.MinimizeBox = true;
+            this.ShowInTaskbar = true;
         }
 
         private void Frm_login_Load(object sender, EventArgs e)
@@ -33,10 +33,7 @@ namespace cc
             
         }
 
-        private void Panel1_Paint(object sender, PaintEventArgs e)
-        {
-            
-        }
+        
 
         private void Button1_Click(object sender, EventArgs e)
         {
@@ -103,7 +100,7 @@ namespace cc
         private void Frm_login_Resize(object sender, EventArgs e)
         {           
             painel_login.Location = new Point(this.Width / 2 - 289, this.Height / 2 - 221);
-            this.WindowState = FormWindowState.Maximized;
+           
         }
     }
     //backend

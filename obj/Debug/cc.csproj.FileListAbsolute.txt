@@ -15,9 +15,6 @@ C:\Users\lucianoq\source\repos\cc\obj\Debug\cc.Produtos.Frm_Produtos.resources
 C:\Users\lucianoq\source\repos\cc\bin\Debug\aa\cc.resources.dll
 C:\Users\lucianoq\source\repos\cc\obj\Debug\cc.frm_login.aa.resources
 C:\Users\lucianoq\source\repos\cc\obj\Debug\aa\cc.resources.dll
-C:\Users\lucianoq\source\repos\cc\bin\Debug\pt-BR\cc.resources.dll
-C:\Users\lucianoq\source\repos\cc\obj\Debug\cc.frm_login.pt-BR.resources
-C:\Users\lucianoq\source\repos\cc\obj\Debug\pt-BR\cc.resources.dll
 C:\Users\lucianoq\source\repos\cc\bin\Debug\MySql.Data.dll
 C:\Users\lucianoq\source\repos\cc\bin\Debug\Google.Protobuf.dll
 C:\Users\lucianoq\source\repos\cc\bin\Debug\Renci.SshNet.dll

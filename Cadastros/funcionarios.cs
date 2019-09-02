@@ -23,6 +23,22 @@ namespace cc.Cadastros
             InitializeComponent();
             radioButton1.Checked = true;
             this.KeyPreview = true;
+            comboboxload();
+            
+        }
+        private void comboboxload()
+        {
+            conc.abrircon();
+            sql = "SELECT *FROM cargos order by cargos asc";
+            cmd = new MySqlCommand(sql, conc.con);
+            MySqlDataAdapter cb = new MySqlDataAdapter();
+            cb.SelectCommand = cmd;
+            DataTable da = new DataTable();
+            cb.Fill(da);
+            cb_cargo.DataSource = da;
+            cb_cargo.DisplayMember = "cargos";
+            conc.fechacon();
+
         }
 
         private void habilitacampo()
